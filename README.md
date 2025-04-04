@@ -8,7 +8,8 @@ Current Endpoints:
 <li>POST /Chess</li> <p>Creates a new chess game</p>
 <li>GET /Chess/:id</li> <p>Shows the details of a specific chess game</p>
 <li>PUT /Chess/:id/move</li> <p>Allows the user to make a move. Body must 
-be JSON encoded with a "from" and "to" location. Ex: {"from": "e2", "to": "e4"}<<li>DELETE /Chess/:id</li> <p>Deletes a chess game</p>
+be JSON encoded with a "from" and "to" location. Ex: {"from": "e2", "to": "e4"}
+<li>DELETE /Chess/:id</li> <p>Deletes a chess game</p>
 </ul>
 <p>The /Chess endpoint is a work in progress. Features to be added:</p>
 <ul>
