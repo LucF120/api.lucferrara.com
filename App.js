@@ -11,6 +11,8 @@ const port = process.env.PORT || 3000;
 app.use(cors({
   // credentials: true,
   origin: process.env.NETLIFY_URL || "http://localhost:5173",
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
 app.use(express.json());
